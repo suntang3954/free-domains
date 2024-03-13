@@ -1,0 +1,13 @@
+addSubDomain({
+  description: ' A website for sharing with my family. ', 
+  domain: '1bt.uk', 
+  subdomain: 'sakura', 
+  owner: {
+    repo: '<https://URL/to/the/repository/with/your/project/sources/if/it/is/public>',
+    email: 'tangke23@gmail.com',
+  },
+  record: {
+    CNAME: 'suntang3954.github.io',
+    A: ['168.138.71.70','3.114.87.244'],
+  }
+})
